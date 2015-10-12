@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /mel/
+Disallow: /earth/
+Disallow: /images/

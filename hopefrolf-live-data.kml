@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>The Hope College Frisbee Golf Course</name>
+		<description><![CDATA[A detailed and interactive map of the Frisbee Golf course that runs through the campus of Hope College.<br><br>Find out holes and bonus holes, tees, weather forecast information, hours, and rules.<br><br>http://hopefrolf.info/<br>]]></description>
+		<NetworkLink>
+			<name>The Hope College Frisbee Golf Course</name>
+			<Link>
+				<href>http://mapsengine.google.com/map/u/0/kml?forcekml=1&amp;mid=zKaTiX8dT7Pc.kJ0lLBZP9fIw</href>
+			</Link>
+		</NetworkLink>
+	</Document>
+</kml>

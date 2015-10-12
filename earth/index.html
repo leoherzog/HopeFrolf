@@ -1,0 +1,158 @@
+﻿<!-- Hello from Agent L Productions -->
+<html lang="en-US">
+<head>
+    <meta name="msvalidate.01" content="AF12C38F869C4468399A3F26FF0CC430" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta charset="utf-8">
+    <meta name="description" content="An interactive map of the Frisbee Golf course on the campus of Hope College. Find out holes and bonus holes, tees, weather conditions, hours, and rules.">
+    <meta name="keywords" content="hope, college, frisbee, golf, map">
+    <title>The Hope College Frisbee Golf Course - HopeFrolf.info</title>
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/hopefrolf/koggdfimlhnohjhjclebpkmfdjfeaenf">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+
+    <style>
+        html, body, a, #map-canvas {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            color: #333333;
+        }
+
+        #forecast {
+            position: fixed;
+            bottom: 6px;
+            left: 6px;
+            color: #333333;
+            background-color: white;
+            border-radius: 4px;
+            box-shadow: 1px 1px 1px #666666;
+            display: none;
+        }
+
+        #rules-box {
+            position: fixed;
+            top: 6px;
+            right: 6px;
+            width: 400px;
+            background-color: white;
+            border-radius: 4px;
+            box-shadow: 1px 1px 1px #666666;
+        }
+
+        #rules-text {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 6px;
+            font-size: 14px;
+            line-height: 120%;
+        }
+
+        @media screen and (max-width: 1023px) {
+
+            #forecast {
+                display: none;
+            }
+
+            #rules-box {
+                display: none;
+            }
+        }
+    </style>
+
+    <script type="text/javascript" src="https://www.google.com/jsapi?key=AIzaSyCfOpfLpFqvJO77OoEVD_6958N-tB9Joqs"></script>
+
+    <script>
+
+        var ge;
+        google.load("earth", "1", { "other_params": "sensor=false" });
+
+        function init() {
+            google.earth.createInstance('map3d', initCB, failureCB);
+        }
+
+        function initCB(instance) {
+            ge = instance;
+            ge.getWindow().setVisibility(true);
+
+            var link = ge.createLink('');
+            var href = 'http://hopefrolf.info/hopefrolf-mel.kml'
+            link.setHref(href);
+
+            var networkLink = ge.createNetworkLink('');
+            networkLink.set(link, true, true);
+
+            ge.getFeatures().appendChild(networkLink);
+        }
+
+        function failureCB(errorCode) {
+        }
+
+        google.setOnLoadCallback(init);
+
+    </script>
+
+    <script language="javascript">
+        function toggle() {
+            var ele = document.getElementById("toggleText");
+            var text = document.getElementById("displayText");
+            if (ele.style.display == "block") {
+                ele.style.display = "none";
+                text.innerHTML = "Click for Rules";
+            }
+            else {
+                ele.style.display = "block";
+                text.innerHTML = "Hide Rules";
+            }
+        }
+    </script>
+
+</head>
+<body>
+
+    <div id="map3d" style="width: 100%;"></div>
+    <div id="forecast"><iframe id="forecast_embed" type="text/html" frameborder="0" height="240px" width="520px" src="http://forecast.io/embed/#lat=42.7876&lon=-86.1026&name=Hope College"></iframe></div>
+    <div id="rules-box">
+        <div id="rules-text">
+            <u><b>Hours</b></u>
+            <blockquote>
+                Monday - Friday 4:00pm to 7:00am<br>
+                All day Saturday and Sunday<br>
+            </blockquote>
+
+            <b><a id="displayText" href="javascript:toggle();">Click for Rules</a><br></b>
+            <div id="toggleText" style="display: none">
+                <ul>
+                    <li>A team will consist of a minimum of two players to a maximum of four players</li>
+                    <li>Only regular-sized, Nova-like discs (175-180g) may be used</li>
+                    <li>Flip a coin to determine who tees off first on the first hole. After that, the team with the lowest score on the previous hole has the honors to tee off first</li>
+                    <li>A maximum of four running steps maybe taken to throw the disc only on the drive</li>
+                    <li>After the drive, all other shots are taken with one foot on the disc landing area and the other may step once toward the target</li>
+                    <li>
+                        If a Frisbee lands in a tree or on the Kletz glass (or any other location where a shot cannot be thrown from), the player must take one drop shot (counts as one stroke)<br>
+                        A drop shot is where the disc lands after it has been knocked out of the tree
+                    </li>
+                    <li>
+                        If a Frisbee lands on the Kletz glass, that player&#8217;s team must play with one less person (not necessarily the person who lost their Frisbee)<br>
+                        <b>Frisbees may not be retrieved from the Kletz glass, as the glass is not made to hold a person&#8217;s weight</b>
+                    </li>
+                    <li>If at the end of the 11 holes the score is tied, start at the first hole until the tie is broken</li>
+                </ul>
+                <p style="text-align:right"><a href="/about/"><i>About this website...</i></a></p>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-18604585-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+
+</body>
+</html>

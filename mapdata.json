@@ -1,0 +1,938 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.10237747430801,
+                    42.78655747156487,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hole #1 and Hole #11",
+                "styleUrl": "#icon-1195",
+                "styleHash": "85294d2",
+                "description": "Tree on the top of the hill, next to Fried Cottage - Par 3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -86.10244989395142,
+                        42.78596295838997,
+                        0
+                    ],
+                    [
+                        -86.10234528779978,
+                        42.78628326658643,
+                        0
+                    ],
+                    [
+                        -86.10237747430796,
+                        42.78655747156487,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "styleUrl": "#line-4186F0-4",
+                "styleHash": "78904c2",
+                "description": "Fairway for Hole #1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -86.10227286815643,
+                        42.78671614800271,
+                        0
+                    ],
+                    [
+                        -86.101584881544,
+                        42.78664098553029,
+                        0
+                    ],
+                    [
+                        -86.10093846917158,
+                        42.786728675072574,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "styleUrl": "#line-4186F0-4",
+                "styleHash": "78904c2",
+                "description": "Fairway for Hole #2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.10093846917158,
+                    42.7867286750726,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hole #2",
+                "styleUrl": "#icon-1195",
+                "styleHash": "85294d2",
+                "description": "Small wooden post at the end of the bush line (near the Kletz glass) - Par 4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -86.10089823603619,
+                        42.78678435090804,
+                        0
+                    ],
+                    [
+                        -86.10151916742325,
+                        42.78703349965818,
+                        0
+                    ],
+                    [
+                        -86.1017981171608,
+                        42.78740652496254,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "styleUrl": "#line-4186F0-4",
+                "styleHash": "78904c2",
+                "description": "Fairway for Hole #3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.1017981171608,
+                    42.78740652496251,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hole #3",
+                "styleUrl": "#icon-1195",
+                "styleHash": "85294d2",
+                "description": "Light post on the top of the stairs next to Nykerk - Par 4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -86.10181421041489,
+                        42.787577726122,
+                        0
+                    ],
+                    [
+                        -86.10159896314144,
+                        42.78769185996526,
+                        0
+                    ],
+                    [
+                        -86.10133811831474,
+                        42.78770995433572,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "styleUrl": "#line-4186F0-4",
+                "styleHash": "78904c2",
+                "description": "Fairway for Hole #4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.10133811831474,
+                    42.78770995433572,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hole #4",
+                "styleUrl": "#icon-1195",
+                "styleHash": "85294d2",
+                "description": "The tall metal post near DeWitt's north entrance - Par 3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -86.10134214162827,
+                        42.78759164489466,
+                        0
+                    ],
+                    [
+                        -86.10148698091507,
+                        42.787956315622644,
+                        0
+                    ],
+                    [
+                        -86.1016908288002,
+                        42.78805792196953,
+                        0
+                    ],
+                    [
+                        -86.10191747546196,
+                        42.78812473153136,
+                        0
+                    ],
+                    [
+                        -86.1021414399147,
+                        42.78812473153136,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "styleUrl": "#line-4186F0-4",
+                "styleHash": "78904c2",
+                "description": "Fairway for Hole #5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.1021414399147,
+                    42.78812473153136,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hole #5",
+                "styleUrl": "#icon-1195",
+                "styleHash": "85294d2",
+                "description": "Pawn (or Golf Cart) in front of Durfee Hall/CIT - Par 4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -86.10219776630402,
+                        42.78808854302766,
+                        0
+                    ],
+                    [
+                        -86.10250487923628,
+                        42.78794100506277,
+                        0
+                    ],
+                    [
+                        -86.1028870940209,
+                        42.7878797627854,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "styleUrl": "#line-4186F0-4",
+                "styleHash": "78904c2",
+                "description": "Fairway for Hole #6"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.1028870940209,
+                    42.7878797627854,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hole #6",
+                "styleUrl": "#icon-1195",
+                "styleHash": "85294d2",
+                "description": "Light post next to President's back yard - Par 3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -86.10281065106392,
+                        42.78775727804884,
+                        0
+                    ],
+                    [
+                        -86.10332831740385,
+                        42.78792151889018,
+                        0
+                    ],
+                    [
+                        -86.10389962792402,
+                        42.78801059848625,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "styleUrl": "#line-4186F0-4",
+                "styleHash": "78904c2",
+                "description": "Fairway for Hole #7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.10389962792402,
+                    42.78801059848625,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hole #7",
+                "styleUrl": "#icon-1195",
+                "styleHash": "85294d2",
+                "description": "Tree next to garbage cans of Voorhees - Par 3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -86.10382452607155,
+                        42.78794518067036,
+                        0
+                    ],
+                    [
+                        -86.10390700399876,
+                        42.78771900151903,
+                        0
+                    ],
+                    [
+                        -86.10390365123749,
+                        42.78742740317804,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "styleUrl": "#line-4186F0-4",
+                "styleHash": "78904c2",
+                "description": "Fairway for Hole #8"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.10390365123749,
+                    42.78742740317804,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hole #8",
+                "styleUrl": "#icon-1195",
+                "styleHash": "85294d2",
+                "description": "Light post in between two trees by Dimnent Chapel - Par 3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -86.103998544251,
+                        42.787348613485776,
+                        0
+                    ],
+                    [
+                        -86.10366502994452,
+                        42.787395698666025,
+                        0
+                    ],
+                    [
+                        -86.10329848769811,
+                        42.78740642604459,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "styleUrl": "#line-4186F0-4",
+                "styleHash": "78904c2",
+                "description": "Fairway for Hole #9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.10329848769817,
+                    42.78740642604457,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hole #9",
+                "styleUrl": "#icon-1195",
+                "styleHash": "85294d2",
+                "description": "Light post near the Dimnent Chapel/Pine Grove bike rack - Par 3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -86.10305335449476,
+                        42.78738819083464,
+                        0
+                    ],
+                    [
+                        -86.10313503525805,
+                        42.787076000451435,
+                        0
+                    ],
+                    [
+                        -86.10313624975106,
+                        42.786797213981956,
+                        0
+                    ],
+                    [
+                        -86.10301539441548,
+                        42.786708916535936,
+                        0
+                    ],
+                    [
+                        -86.1028650347809,
+                        42.78666237591807,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "styleUrl": "#line-4186F0-4",
+                "styleHash": "78904c2",
+                "description": "Fairway for Hole #10"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.1028650347809,
+                    42.78666237591807,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hole #10",
+                "styleUrl": "#icon-1195",
+                "styleHash": "85294d2",
+                "description": "Fire hydrant near Western Seminary (must curve to the right of the big tree) - Par 3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -86.10288307070732,
+                        42.78671475610588,
+                        0
+                    ],
+                    [
+                        -86.10259808599955,
+                        42.786683047713964,
+                        0
+                    ],
+                    [
+                        -86.10238820314407,
+                        42.786571390566934,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "styleUrl": "#line-4186F0-4",
+                "styleHash": "78904c2",
+                "description": "Fairway for Hole #11"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.10068370837263,
+                    42.78681521140769,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bonus Hole #1",
+                "styleUrl": "#icon-962-F4EB37",
+                "styleHash": "-53f1a276",
+                "description": "Hammer the disc and hit the lamp post"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -86.10333770513535,
+                        42.787345282156316,
+                        0
+                    ],
+                    [
+                        -86.10307820141315,
+                        42.78729562652235,
+                        0
+                    ],
+                    [
+                        -86.10290989279747,
+                        42.787430186939595,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "styleUrl": "#line-F4EB37-4",
+                "styleHash": "7b4e5902",
+                "description": "Fairway for Bonus Hole #2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.10290989279747,
+                    42.787430186939595,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bonus Hole #2",
+                "styleUrl": "#icon-962-F4EB37",
+                "styleHash": "-53f1a276",
+                "description": "Forehand throw (or skip off the ground) to the \"Narnia\" lamp post"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -86.10243111848831,
+                        42.78663680983463,
+                        0
+                    ],
+                    [
+                        -86.1024572700262,
+                        42.78632625529319,
+                        0
+                    ],
+                    [
+                        -86.10237210988998,
+                        42.78600906039322,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "styleUrl": "#line-F4EB37-4",
+                "styleHash": "7b4e5902",
+                "description": "Fairway for Bonus Hole #3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.10237210988998,
+                    42.78600906039322,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bonus Hole #3",
+                "styleUrl": "#icon-962-F4EB37",
+                "styleHash": "-53f1a276",
+                "description": "2nd Transformer near Wyckoff Hall"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -86.1023761332035,
+                        42.78591162642808,
+                        0
+                    ],
+                    [
+                        -86.10255986452103,
+                        42.78591232238558,
+                        0
+                    ],
+                    [
+                        -86.10273152589798,
+                        42.785865693219904,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "styleUrl": "#line-F4EB37-4",
+                "styleHash": "7b4e5902",
+                "description": "Fairway for Bonus Hole #4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.10273152589798,
+                    42.785865693219904,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bonus Hole #4",
+                "styleUrl": "#icon-962-F4EB37",
+                "styleHash": "-53f1a276",
+                "description": "Roll frisbee in between the two \"pawn\" black posts - One throw only!"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -86.10091152835241,
+                        42.78683264583323,
+                        0
+                    ],
+                    [
+                        -86.10078896702748,
+                        42.78687957702731,
+                        0
+                    ],
+                    [
+                        -86.10068203876233,
+                        42.78681394569204,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "styleUrl": "#line-F4EB37-4",
+                "styleHash": "7b4e5902",
+                "description": "Fairway for Bonus Hole #1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.10244989395142,
+                    42.78596295838997,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tee #1",
+                "styleUrl": "#icon-1367",
+                "styleHash": "75e430a0",
+                "description": "End of the stone wall, near the Wyckoff front entrance"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.10227286815643,
+                    42.78671614800271,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tee #2",
+                "styleUrl": "#icon-1367",
+                "styleHash": "75e430a0",
+                "description": "Sidewalk that runs between Nykerk and DeWitt"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.10091298818588,
+                    42.78683028343459,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bonus Tee #1",
+                "styleUrl": "#icon-1367",
+                "styleHash": "75e430a0",
+                "description": "Sidewalk that runs between Nykerk and DeWitt"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.10089823603624,
+                    42.78678435090804,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tee #3",
+                "styleUrl": "#icon-1367",
+                "styleHash": "75e430a0",
+                "description": "Sidewalk area next to the nearest light post"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.10181421041489,
+                    42.787577726122,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tee #4",
+                "styleUrl": "#icon-1367",
+                "styleHash": "75e430a0",
+                "description": "Sidewalk area at the top of the stairs next to Nykerk"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.10134214162827,
+                    42.78759164489466,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tee #5",
+                "styleUrl": "#icon-1367",
+                "styleHash": "75e430a0",
+                "description": "Sidewalk area near DeWitt's north entrance"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.10219776630402,
+                    42.78808854302766,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tee #6",
+                "styleUrl": "#icon-1367",
+                "styleHash": "75e430a0",
+                "description": "Sidewalk area between Durfee and Van Vleck Hall"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.10281065106392,
+                    42.78775727804884,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tee #7",
+                "styleUrl": "#icon-1367",
+                "styleHash": "75e430a0",
+                "description": "Sidewalk square in Pine Grove, near President's House"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.10382452607155,
+                    42.78794518067036,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tee #8",
+                "styleUrl": "#icon-1367",
+                "styleHash": "75e430a0",
+                "description": "Sidewalk area connecting Voorhees to Graves Hall"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.103998544251,
+                    42.787348613485776,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tee #9",
+                "styleUrl": "#icon-1367",
+                "styleHash": "75e430a0",
+                "description": "Front entrance of Dimnent Chapel"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.10333770513535,
+                    42.787345282156316,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bonus Tee #2",
+                "styleUrl": "#icon-1367",
+                "styleHash": "75e430a0",
+                "description": "Near the Dimnent Chapel/Pine Grove bike rack - One throw only!"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.10305335449476,
+                    42.78738819083464,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tee #10",
+                "styleUrl": "#icon-1367",
+                "styleHash": "75e430a0",
+                "description": "Sidewalk near light post in the center of Pine Grove"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.10288307070732,
+                    42.78671475610588,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tee #11",
+                "styleUrl": "#icon-1367",
+                "styleHash": "75e430a0",
+                "description": "Sidewalk near fire hydrant"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.10243111848831,
+                    42.78663680983463,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bonus Tee #3",
+                "styleUrl": "#icon-1367",
+                "styleHash": "75e430a0",
+                "description": "Near the hill, next to Fried Cottage - One throw only!"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.1023761332035,
+                    42.78591162642808,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bonus Tee #4",
+                "styleUrl": "#icon-1367",
+                "styleHash": "75e430a0",
+                "description": "End of the stone wall, near the Wyckoff front entrance"
+            }
+        }
+    ]
+}
