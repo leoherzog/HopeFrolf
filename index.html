@@ -101,14 +101,14 @@
             if (navigator.userAgent.match(/Android/i)) {
                 var ask = confirm("Open the course map in the Google Maps app?");
                 if (ask == true) {
-                    window.open('https://www.google.com/maps/d/u/0/viewer?mid=zKaTiX8dT7Pc.kJ0lLBZP9fIw','_blank');
+                    window.open('https://www.google.com/maps/d/u/0/embed?mid=zKaTiX8dT7Pc.kCw6WVsAPWPg','_blank');
                 } else {
                     return 0;
                 }
             } else if (navigator.userAgent.match(/iPhone/i || /iPad/i || /iPod/i)) {
                 var ask = confirm("Open this map in the Google Maps app? Must have Google Maps for iOS installed.");
                 if (ask == true) {
-                    window.location.href = "comgooglemapsurl://www.google.com/maps/d/u/0/viewer?mid=zKaTiX8dT7Pc.kJ0lLBZP9fIw";
+                    window.location.href = "comgooglemapsurl://www.google.com/maps/d/u/0/embed?mid=zKaTiX8dT7Pc.kCw6WVsAPWPg";
                 } else {
                     return 0;
                 }
