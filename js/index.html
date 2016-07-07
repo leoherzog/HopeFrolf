@@ -75,10 +75,9 @@
         }
     </style>
 
-    <script type="javascript">
+    <script type="text/javascript">
 
         function initialize() {
-            google.maps.visualRefresh = true;
             var mapOptions = {
                 zoom: 18,
                 streetViewControl: false,
@@ -120,7 +119,7 @@
 
     </script>
 
-    <script language="javascript">
+    <script language="text/javascript">
         function toggleRules() {
             var ele = document.getElementById("toggleRules");
             var text = document.getElementById("displayRules");
@@ -148,7 +147,7 @@
         }
     </script>
     
-    <script language="javascript">
+    <script language="text/javascript">
         window.onload = function askAboutMobileApp() {
             if (navigator.userAgent.match(/Android/i)) {
                 var ask = confirm("Open the course map in the Google Maps app?");
